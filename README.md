@@ -8,7 +8,6 @@
 ## โครงสร้างโปรเจกต์
 
 ```plaintext
-```plaintext
 Intern-Testing/
 ├── src/
 │   ├── app.controller.spec.ts
@@ -34,7 +33,7 @@ Intern-Testing/
 ├── package-lock.json
 ├── package.json
 ├── tsconfig.build.json
-└── tsconfig.json
+└── tsconfig.json```
 
 ## Git Flow
 

@@ -52,7 +52,7 @@ export class WashingMachineService {
       }
 
     private readonly lineNotifyUrl = 'https://notify-api.line.me/api/notify';
-    private readonly token = 'Koqr04YYYmYhGSyiULhAhHWIqBDaJFncGf2IDNRHhmW';
+    private readonly token = 'Line token'; //นำไลน์โทเค็นที่ทางไลน์ออกให้มาใส่ ในที่นี้ผมขออนุญาตินำออกครับเพื่อความปลอดภัย
 
     private async SendNoti(id: number){
         const headers = {

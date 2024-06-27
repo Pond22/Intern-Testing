@@ -41,6 +41,9 @@ Intern-Testing/
 โปรเจกต์นี้ใช้ Git Flow ในการจัดการ branch:
 - `main`: Branch หลักที่ใช้สำหรับการปล่อย production
 - `develop`: Branch สำหรับการพัฒนาและรวมโค้ดที่สมบูรณ์
+- `feature/*`: Branch สำหรับการพัฒนาฟีเจอร์ใหม่
+- `release/*`: Branch สำหรับการเตรียมการปล่อยเวอร์ชันใหม่
+- `hotfix/*`: Branch สำหรับการแก้ไขบั้คด่วนใน production
 
 
 ## ขั้นตอนการ build และ run

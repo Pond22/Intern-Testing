@@ -26,7 +26,7 @@ export class WashingMachineService {
         }
         
         machine.inUse = true;
-        machine.remainingTime = 1;
+        machine.remainingTime = 60; // หน่วยนาที
 
         return `ขอบคุณที่ใช้บริการเครื่องซักผ้า ${machine.id} จะมีกำหนดการแล้วเสร็จในอีก ${machine.remainingTime} นาที`;
     }
@@ -52,7 +52,7 @@ export class WashingMachineService {
       }
 
     private readonly lineNotifyUrl = 'https://notify-api.line.me/api/notify';
-    private readonly token = 'Koqr04YYYmYhGSyiULhAhHWIqBDaJFncGf2IDNRHhmW';
+    private readonly token = 'Line Token';
 
     private async SendNoti(id: number){
         const headers = {

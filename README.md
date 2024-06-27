@@ -14,12 +14,13 @@ Intern-Testing/
 │   ├── app.controller.ts
 │   ├── app.module.ts
 │   ├── app.service.ts
+│   ├── main.ts
 │   ├── fibonacci/
-│   │   ├── fibonacci.controller.spec.ts
+│   │   ├── fibonacci.module.ts
 │   │   ├── fibonacci.controller.ts
 │   │   ├── fibonacci.service.ts
 │   └── washing-machine/
-│       ├── washing-machine.controller.spec.ts
+│       ├── washing-machine.module.ts
 │       ├── washing-machine.controller.ts
 │       ├── washing-machine.service.ts
 │       ├── washing-machine.entity.ts

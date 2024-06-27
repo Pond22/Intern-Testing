@@ -18,10 +18,11 @@ Intern-Testing/
 │   │   ├── fibonacci.controller.spec.ts
 │   │   ├── fibonacci.controller.ts
 │   │   ├── fibonacci.service.ts
-│   └── laundromat/
-│       ├── laundromat.controller.spec.ts
-│       ├── laundromat.controller.ts
-│       ├── laundromat.service.ts
+│   └── washing-machine/
+│       ├── washing-machine.controller.spec.ts
+│       ├── washing-machine.controller.ts
+│       ├── washing-machine.service.ts
+│       ├── washing-machine.entity.ts
 ├── test/
 │   ├── app.e2e-spec.ts
 │   └── jest-e2e.json

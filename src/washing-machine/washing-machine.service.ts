@@ -36,7 +36,7 @@ export class WashingMachineService {
     }
 
     machine.inUse = true;
-    machine.remainingTime = 1; // หน่วยนาที
+    machine.remainingTime = 60; // หน่วยนาที
     this.Machines.save(machine);
 
     return `ขอบคุณที่ใช้บริการเครื่องซักผ้า ${machine.id} จะมีกำหนดการแล้วเสร็จในอีก ${machine.remainingTime} นาที`;

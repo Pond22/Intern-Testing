@@ -1,7 +1,9 @@
 import { Controller, Get, Param, Body, BadRequestException, ParseIntPipe } from '@nestjs/common';
 import { FibonacciService } from './fibonacci.service';
+import { ApiTags } from '@nestjs/swagger';
 
-@Controller('fibonacci')
+@ApiTags('fibonacci')
+@Controller('api/v1/fibonacci')
 export class FibonacciController {
     constructor(private readonly Fibonacciservice: FibonacciService) {}
 

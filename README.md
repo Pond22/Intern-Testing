@@ -52,7 +52,7 @@ Intern-Testing/
 
 1. **การโคลนโปรเจกต์จาก Git Repository**
     ```bash
-    git clone <https://github.com/Pond22/Intern-Testing>
+    git clone https://github.com/Pond22/Intern-Testing
     cd <project_directory>
     ```
 
